@@ -1,0 +1,62 @@
+nav{
+	position: fixed;
+	top: 0; 
+	width: 100%;
+	background-color: #F5DEB3;
+	font-family: 'Amatic SC', cursive;
+	font-size: 28px;
+}
+
+nav li{
+	float: left;
+	list-style-type: none;
+}
+
+ nav li a:hover{
+	background-color: grey;
+}
+
+nav li a{
+	display: block;
+	color: white; 
+	text-align: center;
+	padding: 15px 60px;
+	text-decoration: none; 
+}
+
+h2{
+	color: white;
+}
+
+.pink{
+	background-color: #ff9999; 
+	text-align: center;
+	position: static;
+	width: 100%;
+	font-size: 25px;
+	padding: 50px;
+	font-family: 'Shadows Into Light Two', cursive;
+	color: navy;
+}
+
+.middle{ 
+	background-color: #F5DEB3;
+	text-align: center;
+	position: static;
+	padding: 50px;
+	font-size: 25px;
+	width: 100%;
+	font-family: 'Shadows Into Light Two', cursive;
+	color: navy;		
+}
+.list{
+	list-style-type: none;
+}
+
+#new{
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+#new2{
+	font-family: 'Shadows Into Light Two', cursive;
+}
