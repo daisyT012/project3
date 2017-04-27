@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head> 
+		<meta charset="UTF-8">
+		<title> Home </title>
+		<link rel="stylesheet" type="text/css" href="https://daisyt012.github.io/project3/css/project2.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<!--Navigation to pages-->
+			<nav class="nav">
+				<ul>
+					<li class=""><a href="#">HOME</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+					<li><a href="aspirations.html">ASPIRATIONS</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--Home page-->
+		<section class="pink">
+			<h2>ABOUT ME</h2>
+			<!--Image code-->
+			<!--<img src="https://daisyt012.github.io/project3/images/daisy.jpg" alt="daisy" width="250" height="250">
+			-->
+			
+		<div class="slideshow-container">
+		<div class="mySlides fade">
+		<div class="numbertext">1 / 5</div>
+			<img src="https://daisyt012.github.io/project3/images/orientation.PNG" alt="soar"  height="400" style="width:100%">
+		<div class="text">SOAR</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">2 / 5</div>
+			<img src="https://daisyt012.github.io/project3/images/esi.PNG" alt="esi"  height="400" style="width:100%">
+		<div class="text">ESI</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">3 / 5</div>
+			<img src="https://daisyt012.github.io/project3/images/esi2.PNG" alt="esi2"  height="400" style="width:100%">
+		<div class="text">ESI</div>
+		</div>
+  
+		<div class="mySlides fade">
+		<div class="numbertext">4/ 5</div>
+			<img src="https://daisyt012.github.io/project3/images/soccer.JPG" alt="soccer"  height="400" style="width:100%">
+		<div class="text">SOCCER IIT</div>
+		</div>
+
+		<div class="mySlides fade">
+		<div class="numbertext">5/ 5</div>
+			<img src="https://daisyt012.github.io/project3/images/downtown.JPG" alt="down"  height="400" style="width:100%">
+		<div class="text">DOWNTOWN</div>
+		</div>
+		</div>
+
+		<div style="text-align:center">
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+
+		</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+			
+			<!--Personal information-->
+			<p>Name: Daisy Tellez </p>
+			<p>Age: 19 </p>
+			<p>Birthday: February 12, 1998</p>
+			<p>Major: Information Technology and Management</p>
+		</section>
+		<section class="middle">
+			<h4>Interests: </h4>
+			<!--List of interests-->
+			<ul class="list">
+				<li>Drawing</li> 
+				<li>Painting</li> 
+				<li>Soccer</li> 
+				<li>Decorating</li>
+				<li>Journaling</li>
+				<li>Crafting</li>
+				<li>Chalkboard Art</li>	
+			</ul>
+		</section>
+			<!--Footer for the page-->
+		<footer class="pink">
+			<p>Created by Daisy Tellez</p>
+			<address>
+				<p>email: dtellez@hawk.iit.edu</p>
+			</address>
+		</footer>	
+	</body>
+</html> 
